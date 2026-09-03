@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/manister7/docker-demo.git', branch: 'main'
+                git url: 'https://github.com/mrinalghimire714/docker-demo-.git', branch: 'main'
             }
         }
  
