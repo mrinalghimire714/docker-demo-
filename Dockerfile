@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 COPY app.py .
 
 # Expose port
-EXPOSE 5003
+EXPOSE 5000
 
 # Run app
 CMD ["python", "app.py"]
