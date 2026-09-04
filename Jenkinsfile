@@ -22,7 +22,7 @@ pipeline {
  
         stage('Verify') {
             steps {
-                sh 'curl -s http://localhost:5003'
+                sh 'curl -s http://127.0.0.1:5003'
             }
         }
     }
