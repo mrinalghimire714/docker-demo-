@@ -22,7 +22,7 @@ pipeline {
  
         stage('Verify') {
             steps {
-                sh 'curl -s http://127.0.0.1:5003'
+                sh 'curl -s http://192.168.1.67:5003'
             }
         }
     }
