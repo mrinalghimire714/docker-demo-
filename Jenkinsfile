@@ -16,13 +16,13 @@ pipeline {
  
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 5001:5001  --name docker-demo docker-demo:latest'
+                sh 'docker run -d -p 5003:5003  --name docker-demo-  docker-demo-:latest'
             }
         }
  
         stage('Verify') {
             steps {
-                sh 'curl -s http://localhost:5001'
+                sh 'curl -s http://localhost:5003'
             }
         }
     }
