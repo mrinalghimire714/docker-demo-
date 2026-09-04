@@ -16,7 +16,7 @@ pipeline {
  
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 5003:5003  --name docker-demo-  docker-demo-:latest'
+                sh 'docker run -d -p 5003:5003  --name docker-demo  docker-demo:latest'
             }
         }
  
